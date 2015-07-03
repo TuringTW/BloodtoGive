@@ -14,15 +14,15 @@
                         <p style="text-align:center"><a class="btn btn-primary btn-lg" href="findsite.php" role="button">馬上行動 &raquo;</a></p>
                     </div>
                     <div class="col-md-1"></div>
-                    <div class="col-md-5 " >
+                    <div class="col-md-5" style="height:100%" >
                         <div id="maploading" class="well"style="margin-top: 100px;margin-left: 35%; z-index:2;position: absolute;top:0px ;text-align:center">
                             <img class="img" src="img/loading.gif" >
                             <p style="margin-bottom:5px">取得血庫資料中...</p>
 
                         </div>
-                        <svg id="map" style="width: 100%;height: 320px;z-index: 1;position: absolute; top:0px "></svg>
+                        <svg id="map" viewBox="150 0 360 270"></svg>
                         <!-- <img src="img/storage.png" alt="已可和台灣血液基金會資料做連線，但暫時先以圖片表示" style="width:60%;margin-left:10%"> -->
-                        <div id="storageinfo" class="panel panel-default" style="display:none;width: 120px;z-index: 1;position: absolute; top:120px;left: 85%; ">
+                        <div id="storageinfo" class="panel panel-default" style="display: inline; width: 120px; z-index: 1; position: absolute; top: 60px; left: 60%;">
                             <table class="table">
                                 <tr><td><span class="glyphicon glyphicon-tint" style="color:#66DD00"></span></td><td>足夠</td></tr>
                                 <tr><td><span class="glyphicon glyphicon-tint" style="color:#FFBB00"></span></td><td>稍緊</td></tr>
