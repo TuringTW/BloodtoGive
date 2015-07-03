@@ -143,7 +143,7 @@ function getStorage()
             xhr = new ActiveXObject("Microsoft.XMLHTTP");  
         }  
         var data = "json=";  
-        xhr.open("POST", "_show_status.php", true);   
+        xhr.open("GET", "_show_status.php", true);   
         xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");                    
         xhr.send(data);  
         xhr.onreadystatechange = display_data;  

@@ -5,7 +5,7 @@
 //storageO 
 
 require_once('simple_html_dom.php');
-if (isset($_POST['json'])) {
+if (isset($_GET['json'])) {
 	$city = array(	array('COUNTYNAME'=>'台北市','region'=>0),
 					array('COUNTYNAME'=>'新北市','region'=>0),
 					array('COUNTYNAME'=>'基隆市','region'=>0),
@@ -43,8 +43,8 @@ if (isset($_POST['json'])) {
 	fwrite($handle,json_encode($city));
 	fclose($handle);
 }
-if (isset($_POST['findstatus'])) {
-	$cityname=$_POST['cityname'];
+if (isset($_GET['findstatus'])) {
+	$cityname=$_GET['cityname'];
 	$city = array(array('台北市',0),array('新北市',0),array('基隆市',0),array('桃園市',1),array('新竹市',1),array('新竹縣',1),array('苗栗縣',1),array('台中市',2),array('南投縣',2),array('彰化縣',2),array('台南市',3),array('嘉義市',3),array('嘉義縣',3),array('雲林縣',3),array('高雄市',4),array('屏東縣',4),array('花蓮縣',5),array('宜蘭縣',5),array('台東縣',5));
 	$storageNum = -1;
 	foreach ($city as $key => $value) {
@@ -245,8 +245,8 @@ function getStorage($storageNum){
 	    
 	    // if ($post) {
 	    //     curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
-	    //     curl_setopt($ch, CURLOPT_POST, 1);
-	    //     curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+	    //     curl_setopt($ch, CURLOPT_GET, 1);
+	    //     curl_setopt($ch, CURLOPT_GETFIELDS, $post);
 	    // }
 	    $result = curl_exec($ch);
 	    $error = curl_error($ch);
