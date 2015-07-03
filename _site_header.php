@@ -54,7 +54,7 @@ require_once('mysql_info.php'); ?>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" >BloodtoGive熱血樂捐</a>
+                    <a class="navbar-brand" href="index.php">BloodtoGive熱血樂捐</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
