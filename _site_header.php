@@ -61,9 +61,9 @@ require_once('mysql_info.php'); ?>
                         <li <?=($sidebar==1)?'class="active"':''?>><a href="index.php">Home</a></li>
                         <li <?=($sidebar==2)?'class="active"':''?>><a href="About.php">About</a></li>
                         <li <?=($sidebar==3)?'class="active"':''?>><a href="findsite.php">即刻捐血</a></li>
-                        <li <?=($sidebar==4)?'class="active"':''?>><a href="diary.php">捐血日誌</a></li>
-                        <li <?=($sidebar==5)?'class="active"':''?>><a href="#tip" onclick="alert('建置中XD')">捐血常識</a></li>                        
-                        <li <?=($sidebar==6)?'class="active"':''?>><a href="https://github.com/mick90207/BloodToGive">Github</a></li>
+                        <!-- <li <?=($sidebar==4)?'class="active"':''?>><a href="diary.php">捐血日誌</a></li> -->
+                        <!-- <li <?=($sidebar==5)?'class="active"':''?>><a href="#tip" onclick="alert('建置中XD')">捐血常識</a></li>                         -->
+                        <li <?=($sidebar==6)?'class="active"':''?>><a href="https://github.com/turingtw/bloodtogive">Github</a></li>
                         <li <?=($sidebar==7)?'class="active"':''?>><a href="https://ossonazure.bhuntr.com/index.php">雲端防災大賽</a></li>
                     </ul>
                 </div><!--/.navbar-collapse -->
