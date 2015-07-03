@@ -55,7 +55,7 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">捐血日誌&nbsp;<span class="text-muted">記錄你每一次熱血</span></h2>
+          <h2 class="featurette-heading">捐血日誌(建置中)&nbsp;<span class="text-muted">記錄你每一次熱血</span></h2>
           <p class="lead">經過你的授權後，我們會從台灣血液基金會取得你每次捐血紀錄，並提醒你下一次捐血時間。</p>
         </div>
         <div class="col-md-5">
