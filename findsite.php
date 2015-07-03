@@ -17,9 +17,6 @@
 <?php require_once('_site_header.php'); ?>
 <div class="container"style="">
 	<div id="row"style="width:100%;">
-		<div class="col-md-9">
-			<div id="map" style="width:100%;height:500px"></div>
-		</div>
 		<div class="col-md-3">
 			<br>
 			<div>
@@ -41,6 +38,10 @@
 			<div id="direction-panel" style="height:200px; overflow:auto">
 			</div>
 		</div>
+		<div class="col-md-9">
+			<div id="map" style="width:100%;height:500px"></div>
+		</div>
+		
 	</div>
 	<br>
 	<br>
