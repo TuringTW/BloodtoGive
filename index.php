@@ -6,15 +6,15 @@
         <div class="jumbotron">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5">
+                    <div class="col-md-6">
                          <h2 style="font-weight:bold">地方的血庫</h2>
                          <h1>需要熱血！！！</h1>
                         <br>
                         <br>            
                         <p style="text-align:center"><a class="btn btn-primary btn-lg" href="findsite.php" role="button">馬上行動 &raquo;</a></p>
                     </div>
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-5 " >
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5 " >
                         <div id="maploading" class="well"style="margin-top: 100px;margin-left: 35%; z-index:2;position: absolute;top:0px ;text-align:center">
                             <img class="img" src="img/loading.gif" >
                             <p style="margin-bottom:5px">取得血庫資料中...</p>
