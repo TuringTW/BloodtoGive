@@ -160,6 +160,9 @@ function findsite(lati,longi,wtd){
 
 </script>
 <script type="text/javascript">
+alert('等等等等等\n我知道現在等等出現的捐血車的座標都可能是錯的\n不會傻傻地真的跑去\n');
+</script>
+<script type="text/javascript">
 function getStorage(city)  
 	{  
 		
