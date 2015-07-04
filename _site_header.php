@@ -62,6 +62,8 @@ require_once('mysql_info.php'); ?>
                         <li <?=($sidebar==3)?'class="active"':''?>><a href="findsite.php">即刻捐血</a></li>
                         <!-- <li <?=($sidebar==4)?'class="active"':''?>><a href="diary.php">捐血日誌</a></li> -->
                         <li <?=($sidebar==5)?'class="active"':''?>><a href="to_know.php">捐血須知</a></li>                        
+                        <li <?=($sidebar==6)?'class="active"':''?>><a href="https://github.com/TuringTW/bloodtogive">Github</a></li>                        
+                        
                     </ul>
                 </div><!--/.navbar-collapse -->
             </div>
